@@ -7,7 +7,7 @@ const Sidebar = () => {
     <Flex
       boxShadow={"base"}
       height={"100vh"}
-      py={2}
+      p={2}
       flexDirection={"column"}
       alignItems={"center"}
       justifyContent={"space-between"}
