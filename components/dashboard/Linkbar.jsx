@@ -1,5 +1,6 @@
 import { Box, Button, Flex, Link, Text } from "@chakra-ui/react";
 import React from "react";
+import Share from "./Share";
 
 const Linkbar = () => {
   return (
@@ -23,7 +24,7 @@ const Linkbar = () => {
           </Text>
         </Link>
       </Flex>
-      <Button backgroundColor={"brand.accent"}>Share</Button>
+      <Share />
     </Flex>
   );
 };
