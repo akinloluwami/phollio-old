@@ -8,8 +8,8 @@ const Links = [
     title: "Projects",
   },
   {
-    route: "/profile",
-    title: "Profile",
+    route: "/heading",
+    title: "Heading",
   },
   {
     route: "/appearance",
