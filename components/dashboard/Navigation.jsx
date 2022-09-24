@@ -5,7 +5,13 @@ import Links from "../../utils/navigationLinks";
 
 const Navigation = () => {
   return (
-    <Flex gap={5} boxShadow="base" py={2}>
+    <Flex
+      gap={5}
+      boxShadow="base"
+      py={2}
+      alignItems="center"
+      justifyContent={"center"}
+    >
       {Links.map((link, i) => (
         <Link key={i} href={"/dashboard" + link.route}>
           <Button backgroundColor={"transparent"} size="md">
