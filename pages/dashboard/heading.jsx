@@ -7,7 +7,7 @@ const Heading = () => {
     <DashboardLayout>
       <Flex flexDirection={"column"} alignItems={"center"}>
         <Flex alignItems={"center"} my={5}>
-          <Avatar size={"xl"} name={"Akinkunmi"} />
+          <Avatar size={"xl"} name={"Akinkunmi"} bg={"brand.accent"} />
           <Button size={"sm"} ml={5}>
             Add profile image
           </Button>
