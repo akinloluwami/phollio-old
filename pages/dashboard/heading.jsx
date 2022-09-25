@@ -1,14 +1,20 @@
 import { Avatar, Box, Button, Flex, Input, Textarea } from "@chakra-ui/react";
-import React from "react";
+import React, { useRef } from "react";
 import DashboardLayout from "../../layouts/DashboardLayout";
 
 const Heading = () => {
+  const fileRef = useRef();
+
+  const handleOpen = () => {
+    console.log(fileRef);
+  };
   return (
     <DashboardLayout>
       <Flex flexDirection={"column"} alignItems={"center"}>
         <Flex alignItems={"center"} my={5}>
           <Avatar size={"xl"} name={"Akinkunmi"} bg={"brand.accent"} />
-          <Button size={"sm"} ml={5}>
+          <Input type={"file"} />
+          <Button size={"sm"} ml={5} onClick={() => handleOpen()}>
             Add profile image
           </Button>
         </Flex>
