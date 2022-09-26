@@ -7,7 +7,17 @@ const Projects = () => {
   return (
     <DashboardLayout>
       <Box>
-        <Flex flexWrap={"wrap"} alignItems={"center"} justifyContent={"center"}>
+        <Flex
+          flexWrap={"wrap"}
+          alignItems={"center"}
+          justifyContent={"center"}
+          overflowY={"scroll"}
+          height={"90vh"}
+        >
+          <Project />
+          <Project />
+          <Project />
+          <Project />
           <Project />
           <Project />
           <Project />
